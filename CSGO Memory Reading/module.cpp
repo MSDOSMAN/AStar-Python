@@ -177,8 +177,7 @@ struct VelocityStruct {
 	float z; // up/down velocity
 			 // Getting total 2D velocity is easy, simply decompose the vectors using the yaw angle
 			 // Getting total 3D veloicty is hard/ impossible because we dont know the angle of take off 
-			 // when a player jumps. The main issue is training the bot to bhop, so we will have to somehow 
-			 // just record the total velocity in a different way, or just estimate total velocity
+			 // when a player jumps.
 };
 
 struct AccountStrcut {
