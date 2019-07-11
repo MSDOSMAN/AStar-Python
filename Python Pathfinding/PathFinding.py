@@ -147,7 +147,7 @@ class Astar:
             self.NodeKiller()
 
             # not implemented correctly V
-            for count, dank in enumerate(self.children):
+            for count, a in enumerate(self.children):
                 self.WriteKeyValues(count) 
 
             if self.WriteOpenList() == True:
